@@ -13,7 +13,7 @@ public class Main {
         System.out.println(paymentTwoYears);
         s = 1000000;
         t = 36;
-        p = 0.0999;
+        p=0.0999;
         int paymentThreeYears = (int) service.calculate(s, t, p);
         System.out.println(paymentThreeYears);
     }
